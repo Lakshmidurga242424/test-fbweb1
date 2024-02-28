@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class UpdateProfileServlet extends HttpServlet {
     private static final String JDBC_URL = "jdbc:mysql://192.168.56.151:3306/myDBB";
     private static final String JDBC_USER = "mysql";
-    private static final String JDBC_PASSWORD = "mysql";
+    private static final String JDBC_PASSWORD = "mysql@123";
 
     // Handling HTTP GET requests for accessing the update profile form
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
