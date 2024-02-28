@@ -19,7 +19,7 @@ public class LoginServlet extends HttpServlet {
     // JDBC connection parameters
     private static final String JDBC_URL = "jdbc:mysql://192.168.56.151:3306/myDBB";
     private static final String JDBC_USER = "mysql";
-    private static final String JDBC_PASSWORD = "mysql";
+    private static final String JDBC_PASSWORD = "mysql@123";
 
     // Declare the connection variable at the class level
     private Connection connection;
